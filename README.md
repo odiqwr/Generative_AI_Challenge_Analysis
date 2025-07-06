@@ -4,53 +4,55 @@
 
 ## 📌 Project Overview
 
-Many startups fail in the first few years due to lack of funding, poor business models, or market mismatch. Through this project, SSP (Startup Success Prediction) is developed as a system that uses classification learning to predict whether a startup will succeed or fail based on its key characteristics. This model aims to support investors and entrepreneurs in making more accurate and effective decisions.
+The widespread use of Generative AI in most human jobs has provided convenience but minimal supervision. This project participates in identifying perceptions of the progress and challenges of generative AI technology. The results of this analysis can be used to monitor potential risks, such as the scope of personal information, and encourage improvements and more responsible policies for the development of Generative AI in various fields.
   
 ## 📊 Dataset
 
 The project using data that from kaggle platform with as follow information:
-- Title : **Startup Success Prediction**
-- Description : Can you predict if a start-up will succeed or fail?.
-- Publish Date : 06/2020
-- Publisher : Manish Kumar
-- Link : [Startup Data](https://www.kaggle.com/datasets/manishkc06/startup-success-prediction)
+- Title : **Generative AI First Opinion**
+- Publish Date : 07/2023
+- Publisher : Arinjay Pathak
+- Link : [Generative AI Tweets](https://www.kaggle.com/datasets/arinjaypathak/generative-ai-tweets)
+- Title : **Generative AI Second Opinion**
+- Publish Date : 01/2025
+- Publisher : Pinjem Akun Falif
+- Link : [Generative AI Opinion Dataset on Twitter](https://www.kaggle.com/datasets/msfalif404/generative-ai-opinion-dataset-on-twitter)
 
 ## 📈 Insight & Findings
 
 <table>
   <tr>
-    <th>Category</th>
-    <th>Technology</th>
-    <th>Description</th>
+    <th>Insight</th>
+    <th>Discussion</th>
   </tr>
   <tr>
     <td>Language</td>
     <td>Python</td>
-    <td>The primary language for data analysis and machine learning development</td>
   </tr>
   <tr>
     <td>Main library</td>
     <td>Pandas,NumPy, </br>sklearn </br>Matplotlib,Seaborn</td>
-    <td>For data manipulation and numerical calculations </br> For modelling machine learning and preprocessing data </br>For graphic visualization and business insight</td>
-  </tr>
   <tr>
     <td>Tools</td>
     <td>Jupyter </br>Github </br>Kaggle</td>
-    <td>For cloud-based experiments and notebook execution </br>For controlling, documentation, and collaboration in project </br>To access dataset</td>
   </tr>
 </table>
 
 ## 🌱 Conclusion and Recomendation
-
-- Deploy the model into a web interface to predict startup outcomes based on user input.
-- Extend dataset with external funding or market-related data to enhance prediction power.
+#### Conclusion
+- This project successfully utilized the IBM Granite model to perform zero-shot sentiment, application field, and topic classification on large-scale public opinion data.
+- The implementation of structured batching and parsing enabled efficient and consistent processing of high-volume textual data.
+- The findings highlight the critical role of public opinion in identifying key concerns related to Generative AI, particularly regarding privacy and ethical considerations.
+#### Recommendation
+- Organizations across industries should leverage public sentiment analysis to monitor the social impact of Generative AI.
+- Sentiment insights should inform product design, policy, and risk management to ensure ethical and responsible AI adoption.
+- Continuous monitoring of public opinion is essential to detect early warnings of potential risks and guide transparent AI development.
 
 ## 🧠 Learned
 
-- Built a complete ML pipeline for binary classification using startup data.
-- Performed data preprocessing including handling missing values and encoding categorical features.
-- Conducted feature selection and model tuning to improve accuracy.
-- Visualized key patterns related to startup success using EDA techniques.
+- Gained hands-on experience in leveraging zero-shot Large Language Models (LLMs), particularly IBM Granite, for large-scale sentiment and topic analysis.
+- Developed robust batch processing and parsing workflows to handle over 80,000 clean opinion data points efficiently.
+- Learned how to optimize model parameters, manage rate limits, and handle real-world limitations such as API timeouts and memory errors, ensuring consistency and scalability in AI-driven text analysis.
   
 ## 👤 Author
 
